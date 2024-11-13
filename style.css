@@ -1,0 +1,149 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #00d1d1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  display: grid;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  background-color: #ffeb3b;
+  border: 0.6px dashed black;
+}
+
+/* ITEM-24 */
+.item-1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #ffeb3b;
+}
+.item-2 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #ffa726;
+}
+.item-3 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #ef5350;
+}
+.item-4 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #e91e63;
+}
+.item-5 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #7e57c2;
+}
+.item-6 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #8e24aa;
+}
+.item-7 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #3f51b5;
+}
+.item-8 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #42a5f5;
+}
+.item-9 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #29b6f6;
+}
+.item-10 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #4dd0e1;
+}
+.item-11 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #26a69a;
+}
+.item-12 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #66bb6a;
+}
+.item-13 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #66bb6a;
+}
+.item-14 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #d4e157;
+}
+.item-15 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #fdd835;
+}
+.item-16 {
+  grid-column: span;
+  grid-row: span;
+  background-color: orangered;
+}
+.item-17 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #6d4c41;
+}
+.item-18 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #757575;
+}
+.item-19 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #43a047;
+}
+.item-20 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: orangered;
+}
+.item-21 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: limegreen;
+}
+.item-22 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #ffeb3b;
+}
+.item-23 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: orangered;
+}
+.item-24 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #7c4dff;
+}
